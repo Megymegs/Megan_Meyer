@@ -1,0 +1,503 @@
+body{
+  background-color: white;
+  margin: 0%;
+}
+
+nav{
+  background-color: white;
+  overflow: hidden;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+h1{
+  width: 15%;
+  float: left;
+  text-align: center;
+  font-family: 'Montserrat:700', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  width: 82%;
+  float: left;
+  margin-top: 2%;
+}
+
+li{
+  display: inline;
+  margin: 3%;
+  text-align: center;
+  font-family: "Lato:400", sans-serif;
+}
+
+#main_images{
+  overflow: hidden;
+}
+
+#main_images{
+  height: 450px;
+  overflow: hidden;
+}
+
+.main_img_combo{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 450px;
+}
+
+#social_links{
+  background-color: rgba(128,128,128,0.2);
+  clear: both;
+  padding:0% 20%;
+  overflow: hidden;
+}
+
+#social_links ul{
+  width: 100%;
+  padding: 12% 0% 2%;
+  margin-top: 20%;
+  margin-left: 20%;
+  list-style-type: none;
+}
+
+#social_links li{
+  display: inline;
+}
+
+#social_links i{
+  color: #6b7684;
+  font-size: 24px;
+}
+
+#overlay{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  color: white;
+  width: 50%;
+}
+
+h2{
+  font-family: "Montserrat:400", sans-serif;
+  font-size: 36px;
+  margin-bottom: 1%
+}
+
+h4{
+  font-family: "Lato:400", sans-serif;
+  margin-top: 1.5%;
+}
+
+.overlay_box{
+  background-color: #f03c4d;
+  color: white;
+  width: 6%;
+  height: 30px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.overlay_arrow{
+  width: 0;
+  height: 0;
+  margin-left:7px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #f03c4d;
+}
+
+#overlay_main{
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 1px lightgrey;
+}
+
+#overlay_img{
+  border-radius: 50%;
+  margin-left: 38%;
+}
+
+#overlay_text{
+  text-align: center;
+  color: #6b7684;
+  margin: 4% 16%;
+}
+
+#overlay_text h4{
+  padding: 4% 0% 10%;
+}
+
+#top_row{
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  background-image: url(\top_row.jpg);
+  background-repeat: no-repeat;
+  background-size: 104% 100%;
+}
+
+h3{
+  font-size: 24px;
+  margin: 3% 0% 0%;
+}
+
+h5{
+  margin-bottom: -0.5%;
+  color: #6b7684;
+}
+
+#corner_boarder{
+  border-bottom: 2px solid #f03c4d;
+  border-right: 2px solid #f03c4d;
+  width: 10px;
+  height: 10px;
+  margin: 0% 56.5% 0%;
+}
+
+.top_row_columns{
+  width: 25.2%;
+  margin: 2% 4%;
+  text-align: center;
+  float: left;
+}
+
+.top_row_columns i{
+  color: #f03c4d;
+}
+
+.top_row_columns li{
+  display: list-item;
+}
+
+.top_row_columns p{
+  color: #6b7684;
+}
+
+#top_row button{
+  font-family: "Lato:700", sans-serif;
+  background-color: #f03c4d;
+  color: white;
+  padding: 1% 2%;
+  margin-bottom: 2%;
+}
+
+#skills{
+  overflow: hidden;
+  background-color: lightgrey;
+}
+
+.skills_Columns{
+  float: left;
+  width: 30%;
+}
+
+.skills_Columns li{
+  display: list-item;
+  text-align: left;
+  font-style: "Lato:400", sans-serif;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+   appearance: none;
+  width: 300px;
+  height: 10px;
+  background-color: red;
+}
+
+progress::-webkit-progress-value {
+  background: #f03c4d;
+  color: black;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+#middle_row{
+  text-align: center;
+  width: 100%;
+  background-image: url(\xperiences_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 84%;
+}
+
+#experiences{
+  margin-top:4%;
+}
+
+#work{
+  clear: both;
+  overflow: hidden;
+}
+
+#experiences button{
+  color: black;
+  float: left;
+  width: 10%;
+  padding: 1% 0%;
+  font-family: "Lato:700", sans-serif;
+  background-color: white;
+  border: 1px solid lightgrey;
+  margin-bottom: 4%;
+}
+
+#experiences button:active{
+  color: #f03c4d;
+  background-color: grey;
+}
+
+#experiences i{
+  margin-right: 4%;
+}
+
+#work table{
+  margin-left: 20%;
+  clear: both;
+  width: 60%;
+  border: 1px solid lightgrey;
+}
+
+#work ul{
+  list-style-type: none;
+  margin-bottom: 0%;
+  width: 100%;
+  padding-left: 0%;
+  text-align: left;
+}
+
+#work li{
+  display: inline-table;
+  margin: 0%;
+  text-align: left;
+  width: 25%;
+}
+
+#work p{
+  float: left;
+  clear: both;
+  margin-top: 0%;
+  text-align: left;
+}
+
+#work h2{
+  font-size: 4.7em;
+  margin-top: 10%;
+}
+
+
+#education{
+  clear: both;
+  overflow: hidden;
+}
+
+#education ul{
+  display: grid;
+}
+
+#education li{
+  margin: 0 1%;
+  width: 50%;
+}
+
+#left{
+  float: left;
+}
+
+#left li{
+  width: 40%;
+  text-align: right;
+}
+
+.right{
+  float: right;
+}
+
+.right li{
+  width: 100%;
+  text-align: left;
+}
+
+#stats{
+  overflow: hidden;
+  clear: both;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.stats_columns{
+  float: left;
+  width: 20%;
+  margin: 4% 2%;
+  font-family: "Lato:400", sans-serif;
+}
+
+.stats_columns li{
+  width: 20%;
+  float: left;
+  font-size: 24px;
+  margin: 3% 0% 2%;
+}
+
+.stats_last{
+  font-family: "Montserrat:400", sans-serif;
+  clear: both;
+  margin: 0;
+}
+
+#bottom_row{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(\portfolio_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#portfolio{
+  overflow: hidden;
+  width: 60%;
+  margin: 4% 21%;
+}
+
+.portfolio_img_holder{
+  width: 46%;
+  margin: 4% 2% 7%;
+  float: left;
+}
+
+.portfolio_image{
+  position: relative;
+  cursor: pointer;
+}
+
+.project_caption{
+  position: absolute;
+  background-color: white;
+  bottom: -20%;
+  width: 100%;
+  text-align: left;
+  font-family: "Lato:400",sans-serif;
+  box-shadow: 0px 1px 1px 0px lightgrey;
+}
+
+.project_caption h4{
+  margin-left: 5%;
+}
+
+
+.portfolio_image .overlay_box{
+  background-color: #f03c4d;
+color: white;
+width: 10%;
+height: 30px;
+text-align: center;
+padding-top: 2%;
+position: absolute;
+bottom: 1%;
+right: 5%;
+}
+
+.portfolio_image .overlay_arrow{
+  width: 0;
+  height: 0;
+  margin-left: 88%;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #f03c4d;
+}
+
+#logos{
+  list-style-type: none;
+  width: 60%;
+  margin-left: 22%;
+  padding: 0%;
+}
+
+#logos li{
+  display: inline-block;
+  margin: 1%;
+  width: 22.5%;
+  filter: grayscale(1);
+}
+
+#main_footer{
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+}
+
+#main_footer #overlay{
+      background-color: white;
+      padding: 3% 0% 3%;
+      box-shadow: 1px 2px 1px lightgrey;
+      top:24%;
+    }
+
+.form_fields{
+  font-family: "Lato:400", sans-serif;
+  color: black;
+  margin: 2% 9%;
+  background-color: lightgrey;
+  text-align: left;
+  overflow: hidden;
+}
+
+.form_fields p{
+  float: left;
+  margin-left: 2%;
+  width: 18%;
+}
+
+.form_fields input{
+  line-height: 4em;
+  float: left;
+  width: 80%;
+  background-color: lightgrey;
+  border: none;
+}
+
+textarea{
+  border: none;
+  background-color: lightgrey;
+}
+
+#contact{
+  position: relative;
+  margin: 2% 0% 0%;
+  padding-top: 1%;
+  padding-bottom: 20%;
+  background-image: url(\main_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  height: 100%;
+}
+
+#overlay button{
+  background-color: transparent;
+  color: #f03c4d;
+  float: left;
+  font-size: 16px;
+  margin-left: 5%;
+  line-height: 3;
+  width: 18%;
+  border: none;
+}
+
+#email{
+  clear: both;
+  overflow: hidden;
+  background-color: transparent;
+  margin-top: 30%;
+  font-family: "Montserrat:400", sans-serif;
+  width: 40%;
+  margin-left: 38%;
+  padding: 2% 0%;
+}
