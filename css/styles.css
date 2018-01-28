@@ -195,6 +195,7 @@ h5{
 .skills_Columns{
   float: left;
   width: 30%;
+  margin: 2% 0%;
 }
 
 .skills_Columns li{
@@ -205,17 +206,17 @@ h5{
 
 progress[value] {
   -webkit-appearance: none;
-   appearance: none;
-  width: 300px;
-  height: 10px;
-  background-color: red;
+  appearance: none;
+  width: 0%;
+  height: 14px;
 }
 
 progress::-webkit-progress-value {
+  width: 0%;
   background: #f03c4d;
   color: black;
   border-radius: 2px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.25) inset;
 }
 
 #middle_row{
@@ -230,39 +231,34 @@ progress::-webkit-progress-value {
   margin-top:4%;
 }
 
-#work{
+#workHistory{
   clear: both;
   overflow: hidden;
+  display: block;
 }
 
 #experiences button{
-  color: black;
   float: left;
   width: 10%;
   padding: 1% 0%;
   font-family: "Lato:700", sans-serif;
-  background-color: white;
   border: 1px solid lightgrey;
   margin-bottom: 4%;
-}
-
-#experiences button:active{
-  color: #f03c4d;
-  background-color: grey;
+  background-color: white;
 }
 
 #experiences i{
   margin-right: 4%;
 }
 
-#work table{
+#workHistory table{
   margin-left: 20%;
   clear: both;
   width: 60%;
   border: 1px solid lightgrey;
 }
 
-#work ul{
+#workHistory ul{
   list-style-type: none;
   margin-bottom: 0%;
   width: 100%;
@@ -270,56 +266,71 @@ progress::-webkit-progress-value {
   text-align: left;
 }
 
-#work li{
+#workHistory li{
   display: inline-table;
   margin: 0%;
   text-align: left;
   width: 25%;
 }
 
-#work p{
+#workHistory p{
   float: left;
   clear: both;
   margin-top: 0%;
   text-align: left;
 }
 
-#work h2{
+#workHistory h2{
   font-size: 4.7em;
   margin-top: 10%;
 }
 
 
-#education{
+#educationHistory{
   clear: both;
   overflow: hidden;
+  margin: 2% 0% 2% 20%;
+  display: none;
 }
 
-#education ul{
-  display: grid;
+.right h4{
+  margin-bottom: -0.3%;
+  color: black;
+  margin-top: 0%;
 }
 
-#education li{
-  margin: 0 1%;
-  width: 50%;
+.right h5{
+  margin:0% 0% 0% 37.6%;
+  padding-top:1%;
+  width: 24%;
+  color: #f03c4d;
 }
 
-#left{
-  float: left;
+.right p{
+  margin:0% 0% 0% 37.6%;
+  padding: 1% 0% 1% 9%;
+  width: 24%;
+  text-align:left;
 }
 
-#left li{
-  width: 40%;
+#left h4{
+  margin: -0.2% 34.7% -0.3% 0%;
+}
+
+#left h5{
+  margin: 0% 0% -0.5% 12.6%;
+  padding: 1%;
+  color: #f03c4d;
+  border-right: 1px solid grey;
+  width: 23%;
+}
+
+#left p{
+  width: 24%;
+  padding: 1% 9.6% 1% 4%;
+  border-right: 1px solid grey;
+  margin: 0%;
   text-align: right;
-}
-
-.right{
-  float: right;
-}
-
-.right li{
-  width: 100%;
-  text-align: left;
 }
 
 #stats{
@@ -356,6 +367,8 @@ progress::-webkit-progress-value {
   background-image: url(\portfolio_background.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  position: relative;
+  padding-top: 2%;
 }
 
 #portfolio{
@@ -368,6 +381,117 @@ progress::-webkit-progress-value {
   width: 46%;
   margin: 4% 2% 7%;
   float: left;
+}
+
+#overlayArtBox{
+  display: none;
+  padding: 10% 10% 15%;
+  overflow: hidden;
+  position: absolute;
+  background-color: #808080;
+  top: 0;
+}
+
+.art{
+  height: 588px!important;
+  width: 50%;
+  margin: 0%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+}
+
+#textArt{
+  margin: 5% 5% 20% 5%;
+  clear: both;
+  overflow: hidden;
+  text-align: left;
+}
+
+#textArt ul{
+  padding-left: 0%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+#textArt li{
+  margin-left: 0%;
+  margin-right: 10%;
+  line-height: 3em;
+}
+
+#textArt i{
+  margin-right: 5%;
+}
+
+#overlay_artBox1{
+  background-color: #f03c4d;
+  height: 6%;
+  width: 6%;
+  position: absolute;
+  top:40%;
+  right: 0%;
+  overflow: hidden;
+}
+
+#overlay_artBox1 i{
+  padding-top:0.6em;
+  color: white;
+  overflow: hidden;
+}
+
+#overlay_artArrow1{
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 10px solid #f03c4d;
+  position: absolute;
+  top:41%;
+  right:6%;
+  overflow: hidden;
+}
+
+#overlay_artBox2{
+  background-color: #f03c4d;
+  height: 6%;
+  width: 6%;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+
+#overlay_artBox2 i{
+  padding-top:0.6em;
+  color: white;
+}
+
+
+#overlay_artArrow2{
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #f03c4d;
+  position: absolute;
+  top: 51%;
+}
+
+#artText{
+  height: 100%;
+  padding: 10% 5%;
+
+}
+
+#artText button{
+  color: #f03c4d;
+  border: 1px solid #f03c4d;
+  padding: 4% 6%;
+  background-color: white;
+  margin-bottom: 18%;
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  font-family: "Lato:700", sans-serif;
 }
 
 .portfolio_image{
@@ -392,14 +516,14 @@ progress::-webkit-progress-value {
 
 .portfolio_image .overlay_box{
   background-color: #f03c4d;
-color: white;
-width: 10%;
-height: 30px;
-text-align: center;
-padding-top: 2%;
-position: absolute;
-bottom: 1%;
-right: 5%;
+  color: white;
+  width: 10%;
+  height: 30px;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 1%;
+  right: 5%;
 }
 
 .portfolio_image .overlay_arrow{
@@ -434,11 +558,11 @@ right: 5%;
 }
 
 #main_footer #overlay{
-      background-color: white;
-      padding: 3% 0% 3%;
-      box-shadow: 1px 2px 1px lightgrey;
-      top:24%;
-    }
+  background-color: white;
+  padding: 3% 0% 3%;
+  box-shadow: 1px 2px 1px lightgrey;
+  top:24%;
+}
 
 .form_fields{
   font-family: "Lato:400", sans-serif;
@@ -470,8 +594,8 @@ textarea{
 
 #contact{
   position: relative;
-  margin: 2% 0% 0%;
-  padding-top: 1%;
+  margin: 0%;
+  padding-top: 3%;
   padding-bottom: 20%;
   background-image: url(\main_background.jpg);
   background-repeat: no-repeat;
