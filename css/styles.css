@@ -3,6 +3,10 @@ body{
   margin: 0%;
 }
 
+button{
+  cursor:pointer;
+}
+
 nav{
   background-color: white;
   overflow: hidden;
@@ -245,7 +249,6 @@ progress::-webkit-progress-value {
   border: 1px solid lightgrey;
   margin-bottom: 4%;
   background-color: white;
-  cursor: pointer;
 }
 
 #experiences i{
